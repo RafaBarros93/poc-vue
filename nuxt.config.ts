@@ -7,4 +7,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  plugins: [
+    '~/plugins/pinia.js', // Adicione esse plugin
+  ],
+
 });

@@ -2,10 +2,12 @@
 definePageMeta({
   middleware: 'auth',
 })
+import Toast from '@/components/toast.vue'
 </script>
 
 <template>
   <NuxtPage />
+  <Toast />
 </template>
 
 <style>
