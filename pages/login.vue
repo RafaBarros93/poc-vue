@@ -18,8 +18,9 @@ const login = () => {
 </script>
 
 <template>
-  <div class="flex h-screen items-center justify-center bg-gray-900">
-    <div class="w-96 p-8 bg-gray-800 rounded-lg shadow-md">
+  <div class="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4">
+    <img src="/logo.png" alt="Logo" class="mx-auto mb-8 w-32 h-32">
+    <div class="w-96 p-8 bg-gray-800 rounded-lg shadow-md"> 
       <h2 class="text-white text-center text-2xl font-bold mb-6">Login</h2>
       <input v-model="email" type="email" placeholder="Email" class="w-full mb-4 p-2 rounded bg-gray-700 text-white">
       <input v-model="password" type="password" placeholder="Senha" class="w-full mb-4 p-2 rounded bg-gray-700 text-white">

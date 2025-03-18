@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
-  middleware: "auth",
-});
+  middleware: 'auth',
+})
 </script>
 
 <template>
@@ -9,7 +9,7 @@ definePageMeta({
 </template>
 
 <style>
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 </style>
